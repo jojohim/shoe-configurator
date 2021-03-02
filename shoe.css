@@ -1,0 +1,47 @@
+/****Color Classes****/
+
+/******Colour Selection******/
+
+.yellow{
+    fill: #F5B12F;
+    opacity: 80%;
+}
+
+.orange{
+    fill: #F55F0F;
+    opacity: 75%;
+}
+
+.green {
+    fill: #27F569;
+    opacity: 75%;
+}
+
+.blue{
+    fill: #2782F5;
+    opacity: 75%;
+}
+
+.red {
+    fill: #F50702;
+    opacity: 75%;
+}
+
+/********Decoration********/
+
+/*****Remove pointer events from shadow image*****/
+
+g#shadow_Image{
+    pointer-events: none;
+}
+
+/******Set fill pointer events for sections******/
+
+path{
+    pointer-events: fill;
+}
+
+path:hover {
+    fill: grey;
+    opacity: 20%;
+}
