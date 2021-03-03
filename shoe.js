@@ -49,8 +49,6 @@ console.log(elementToPaint);
 
 function checkColorFill(event){
     let colorSelected = event.target.attributes.fill.value;
-
-
     elementToPaint.forEach(element => setColor(element, colorSelected));
 }
 
@@ -66,6 +64,11 @@ function setColor(element, colorSelected) {
     element.classList.add("blue");
 } else if (colorSelected == "#F50702"){
     element.classList.add("red");
-}
-
+} else if (colorSelected == "#E02DAB"){
+    element.classList.add("pink");
+} else if (colorSelected == "#951CE0"){
+    element.classList.add("purple");
+} else if (colorSelected == "#5FE6E5"){
+    element.classList.add("turquoise");
+} 
 }

@@ -1,6 +1,12 @@
-/****Color Classes****/
+/*******FONT*******/
 
-/******Colour Selection******/
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
+
+* {
+    font-family:'Shippori Mincho B1', serif;;
+}
+
+/****Color Classes****/
 
 .yellow{
     fill: #F5B12F;
@@ -27,21 +33,44 @@
     opacity: 75%;
 }
 
-/********Decoration********/
+.pink{
+    fill: #E02DAB;
+    opacity: 75%;
+}
 
-/*****Remove pointer events from shadow image*****/
+.purple {
+    fill: #951CE0;
+    opacity: 75%;
+}
+
+.turquoise{
+    fill: #5FE6E5;
+    opacity: 75%;
+}
+
+/*****Remove and set pointer events*****/
 
 g#shadow_Image{
     pointer-events: none;
 }
 
-/******Set fill pointer events for sections******/
-
 path{
     pointer-events: fill;
 }
 
+/*******SVG size adjustment*******/
+#shoe-svg{
+    width: 70vw;
+}
+/**********Hover effects************/
 path:hover {
+    cursor: pointer;
     fill: grey;
     opacity: 20%;
 }
+
+svg rect:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+
